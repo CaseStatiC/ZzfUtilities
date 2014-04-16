@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 /*
  * 具有完整生命周期的普通Activity
+ *
  */
 public class CommonActivity extends Activity {
 
@@ -37,4 +38,5 @@ public class CommonActivity extends Activity {
 	protected void onDestroy() {
 		super.onDestroy();
 	}
+
 }
